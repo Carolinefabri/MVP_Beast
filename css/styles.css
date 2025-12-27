@@ -334,3 +334,40 @@ select option {
         font-size: 14px;
     }
 }
+
+
+/* Adicionar ao final do seu arquivo CSS */
+
+.exercicio-imagem-container.clicavel {
+  cursor: pointer;
+  position: relative;
+}
+
+.exercicio-imagem-container.clicavel:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s;
+}
+
+.zoom-hint {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.exercicio-imagem-container.clicavel:hover .zoom-hint {
+  opacity: 1;
+}
+
+/* Para telas menores (celular) */
+@media (max-width: 768px) {
+  .zoom-hint {
+    opacity: 0.7;
+  }
+}

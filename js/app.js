@@ -34,6 +34,103 @@ function calcularSeries(exercicios) {
   }, 0);
 }
 
+// CRIAR MODAL DE IMAGEM
+function criarModalImagem() {
+  const modal = document.createElement('div');
+  modal.id = 'modalImagem';
+  modal.style.cssText = `
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  `;
+
+  const conteudo = document.createElement('div');
+  conteudo.style.cssText = `
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  `;
+
+  const img = document.createElement('img');
+  img.id = 'imagemModal';
+  img.style.cssText = `
+    max-width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 8px;
+  `;
+
+  const btnFechar = document.createElement('button');
+  btnFechar.innerHTML = '✕';
+  btnFechar.style.cssText = `
+    position: absolute;
+    top: -40px;
+    right: 0;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+  `;
+  btnFechar.onclick = fecharModal;
+
+  conteudo.appendChild(btnFechar);
+  conteudo.appendChild(img);
+  modal.appendChild(conteudo);
+  document.body.appendChild(modal);
+
+  // Fechar ao clicar fora da imagem
+  modal.onclick = (e) => {
+    if (e.target === modal) {
+      fecharModal();
+    }
+  };
+}
+
+// ABRIR MODAL COM IMAGEM
+function abrirImagem(urlImagem) {
+  const modal = document.getElementById('modalImagem');
+  const img = document.getElementById('imagemModal');
+  
+  if (!modal) {
+    criarModalImagem();
+    abrirImagem(urlImagem);
+    return;
+  }
+
+  img.src = urlImagem;
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+// FECHAR MODAL
+function fecharModal() {
+  const modal = document.getElementById('modalImagem');
+  if (modal) {
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+  }
+}
+
 // RENDERIZA EXERCÍCIOS
 function renderizarExercicios() {
   const treino = filtrarTreino(faseAtual, diaAtual);
@@ -59,10 +156,12 @@ function renderizarExercicios() {
 
   listaExercicios.innerHTML = treino.exercicios.map((ex, i) => `
     <div class="exercicio-card">
-      <div class="exercicio-imagem-container">
+      <div class="exercicio-imagem-container ${ex.urlImagem ? 'clicavel' : ''}" 
+           ${ex.urlImagem ? `onclick="abrirImagem('${ex.urlImagem}')"` : ''}>
         <div class="exercicio-numero">${i + 1}</div>
         ${ex.urlImagem 
-          ? `<img src="${ex.urlImagem}">` 
+          ? `<img src="${ex.urlImagem}">
+             <div class="zoom-hint">🔍</div>` 
           : `<div class="placeholder-icon">🏋️</div>`}
       </div>
       <div class="exercicio-info">
@@ -85,6 +184,13 @@ selectFase.addEventListener('change', e => {
 selectDia.addEventListener('change', e => {
   diaAtual = parseInt(e.target.value);
   renderizarExercicios();
+});
+
+// Fechar modal com ESC
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    fecharModal();
+  }
 });
 
 const frases = [
@@ -114,7 +220,6 @@ function mostrarFraseDiaria() {
   const elemento = document.getElementById("fraseDiaria");
   if (!elemento) return;
 
-  // Usa o dia do ano para escolher a frase
   const hoje = new Date();
   const inicioAno = new Date(hoje.getFullYear(), 0, 0);
   const diff = hoje - inicioAno;
@@ -126,4 +231,3 @@ function mostrarFraseDiaria() {
 }
 
 mostrarFraseDiaria();
-
