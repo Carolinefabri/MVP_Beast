@@ -13,6 +13,8 @@ const treinoSubtitulo = document.getElementById('treinoSubtitulo');
 const resumoTreino = document.getElementById('resumoTreino');
 const resumoExercicios = document.getElementById('resumoExercicios');
 const resumoSeries = document.getElementById('resumoSeries');
+const checkboxConcluido = document.getElementById('checkboxConcluido');
+const treinoConcluido = document.getElementById('treinoConcluido');
 
 // CARREGAR JSON
 fetch('dados/treinos.json')
@@ -141,6 +143,7 @@ function renderizarExercicios() {
         <div class="vazio-icone">📋</div>
         <div class="vazio-texto">Nenhum treino cadastrado</div>
       </div>`;
+    checkboxConcluido.style.display = 'none';
     return;
   }
 
@@ -171,8 +174,18 @@ function renderizarExercicios() {
           ? `<div class="exercicio-obs">💡 ${ex.observacoes}</div>` 
           : ''}
       </div>
+      <div class="exercicio-checkbox">
+        <input type="checkbox" id="ex_${faseAtual}_${diaAtual}_${i}" class="exercicio-check" onchange="salvarCheckExercicio(${faseAtual}, ${diaAtual}, ${i})">
+        <label for="ex_${faseAtual}_${diaAtual}_${i}" class="check-label"></label>
+      </div>
     </div>
   `).join('');
+
+  // Carregar estados salvos dos checkboxes dos exercícios
+  carregarChecksExercicios();
+  
+  // Esconder checkbox geral do treino
+  checkboxConcluido.style.display = 'none';
 }
 
 // EVENTOS
@@ -193,6 +206,7 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
+// FRASES DIÁRIAS
 const frases = [
   "Pequenos hábitos. Grandes resultados.",
   "1% melhor todos os dias.",
@@ -231,3 +245,47 @@ function mostrarFraseDiaria() {
 }
 
 mostrarFraseDiaria();
+
+// GERENCIAR CHECKBOXES DOS EXERCÍCIOS
+function obterChaveExercicio(fase, dia, index) {
+  const hoje = new Date().toISOString().split('T')[0];
+  return `exercicio_${fase}_${dia}_${index}_${hoje}`;
+}
+
+function salvarCheckExercicio(fase, dia, index) {
+  const checkbox = document.getElementById(`ex_${fase}_${dia}_${index}`);
+  const chave = obterChaveExercicio(fase, dia, index);
+  localStorage.setItem(chave, checkbox.checked);
+}
+
+function carregarChecksExercicios() {
+  const treino = filtrarTreino(faseAtual, diaAtual);
+  if (!treino) return;
+  
+  treino.exercicios.forEach((ex, i) => {
+    const checkbox = document.getElementById(`ex_${faseAtual}_${diaAtual}_${i}`);
+    if (checkbox) {
+      const chave = obterChaveExercicio(faseAtual, diaAtual, i);
+      const estadoSalvo = localStorage.getItem(chave);
+      checkbox.checked = estadoSalvo === 'true';
+    }
+  });
+  
+  // Limpar checkboxes de dias anteriores
+  limparChecksAntigos();
+}
+
+function limparChecksAntigos() {
+  const hoje = new Date().toISOString().split('T')[0];
+  Object.keys(localStorage).forEach(key => {
+    if (key.startsWith('exercicio_')) {
+      const dataCheck = key.split('_').pop();
+      if (dataCheck !== hoje) {
+        localStorage.removeItem(key);
+      }
+    }
+  });
+}
+
+// Remover funções antigas do checkbox geral (não são mais necessárias)
+treinoConcluido.removeEventListener('change', salvarEstadoCheckbox);
