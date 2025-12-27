@@ -1,0 +1,357 @@
+[
+{
+    "fase": 1,
+    "dia": 1,
+    "nome": "Xô Celulite",
+    "exercicios": [
+      {
+        "nome": "Agachamento frontal com halter",
+        "repeticoes": "3/12",
+        "urlImagem": "imagens/exercicios/Agachamento-frontal-com-halteres.png",
+        "observacoes": "Carga: 10/10/10. Intervalo: 50s. Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições."
+      },
+      {
+        "nome": "Leg horizontal",
+        "repeticoes": "12/10/8",
+        "urlImagem": "imagens/exercicios/legPress.png",
+        "observacoes": "Carga: 40/50/50. Intervalo: 50s. Série 1 e 2: reps rápidas. Série 3: 8 reps lentas com mais peso."
+      },
+      {
+        "nome": "Cadeira flexora",
+        "repeticoes": "12/12/10/10",
+        "urlImagem": "imagens/exercicios/CadeiraFlexora.png",
+        "observacoes": "Carga: 20/20/20/20. Intervalo: 50s. Séries 1 e 2: 12 repetições rápidas. Séries 3 e 4: 10 repetições lentas."
+      },
+      {
+        "nome": "Mesa flexora",
+        "repeticoes": "3/8",
+        "urlImagem": "imagens/exercicios/mesa-flexora.png",
+        "observacoes": "Carga: 2,5-5/2,5-5/2,5-5. Intervalo: 50s."
+      },
+      {
+        "nome": "Glúteo na máquina em pé",
+        "repeticoes": "3/15 cada perna",
+        "urlImagem": "",
+        "observacoes": "Carga: 15/15/15. Execução unilateral."
+      },
+      {
+        "nome": "Panturrilha na máquina",
+        "repeticoes": "15/12/10",
+        "urlImagem": "",
+        "observacoes": "Carga: 10. Intervalo: 45s."
+      },
+      {
+        "nome": "CARDIO",
+        "repeticoes": "14 minutos",
+        "urlImagem": "",
+        "observacoes": "Ao final do treino, alternando 1 minuto rápido e 1 minuto devagar no aparelho de preferência."
+      }
+    ]
+  },
+  {
+    "fase": 1,
+    "dia": 2,
+    "nome": "Braços definidos",
+    "exercicios": [
+      {
+        "nome": "Remada máquina pegada neutra",
+        "repeticoes": "3x10 a 12 lentas",
+        "urlImagem": "",
+        "observacoes": "Carga: 15/17,5/17,5. Intervalo: 50s. Aquecimento: 20 reps com pouco peso no primeiro exercício."
+      },
+      {
+        "nome": "Puxada fechada pegada supinada",
+        "repeticoes": "12/10/10",
+        "urlImagem": "",
+        "observacoes": "Carga: 19,5/25/25. Intervalo: 45s. Série 1: 12 reps rápidas. Séries 2 e 3: 10 reps lentas."
+      },
+      {
+        "nome": "Puxada aberta",
+        "repeticoes": "3x12 a 15 lentas",
+        "urlImagem": "",
+        "observacoes": "Carga: 17,5/20/20. Intervalo: 50s. Repetições lentas, controlando a volta."
+      },
+      {
+        "nome": "Peck deck",
+        "repeticoes": "3x15",
+        "urlImagem": "",
+        "observacoes": "Carga: 15/15/15. Intervalo: 30s."
+      },
+      {
+        "nome": "Supino máquina",
+        "repeticoes": "12/10/8/8",
+        "urlImagem": "",
+        "observacoes": "Carga: 10/12,5/15/17,5. Intervalo: 50s. A cada série, aumentar o peso."
+      },
+      {
+        "nome": "Variação elevação frontal com halter",
+        "repeticoes": "3x15 cada lado",
+        "urlImagem": "",
+        "observacoes": "Carga: 3. Intervalo: 50s."
+      },
+      {
+        "nome": "Abdominal máquina",
+        "repeticoes": "4x20",
+        "urlImagem": "",
+        "observacoes": "Carga: 5/7,5/10/10. Intervalo: 30s."
+      },
+      {
+        "nome": "CARDIO",
+        "repeticoes": "20 minutos",
+        "urlImagem": "",
+        "observacoes": "Ao final do treino, alternando 1 minuto moderado e 30 segundos forte."
+      }
+    ]
+  },
+
+{
+    "fase": 1,
+    "dia": 3,
+    "nome": "Empina bumbum",
+    "exercicios": [
+      {
+        "nome": "Sumô com halter",
+        "repeticoes": "3/15",
+        "urlImagem": "",
+        "observacoes": "Carga: 10. Intervalo: 45.0s. Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições!!"
+      },
+      {
+        "nome": "Cadeira flexora",
+        "repeticoes": "15/12/10",
+        "urlImagem": "",
+        "observacoes": "Carga: 15. Intervalo: 50.0s. Série 1: 15 repetições; Série 2: 12 repetições; Série 3: 10 repetições."
+      },
+      {
+        "nome": "Cadeira extensora",
+        "repeticoes": "3/10 a 12",
+        "urlImagem": "",
+        "observacoes": "Carga: 10/15/15/7,5. Intervalo: 45.0s. Controla a volta, descer em 3 segundos e subir rápido. Na última série: 10 repetições, diminuir metade do peso e fazer mais 10, diminuir de novo e fazer até falhar!!!"
+      },
+      {
+        "nome": "Mesa flexora",
+        "repeticoes": "3/10 a 12 lentas",
+        "urlImagem": "",
+        "observacoes": "Carga: 2,5. Intervalo: 60.0s."
+      },
+      {
+        "nome": "Abdução de quadril máquina",
+        "repeticoes": "3/10 a 12",
+        "urlImagem": "",
+        "observacoes": "Carga: 20. Intervalo: 50.0s. Última série: mesmo esquema da extensora (10 reps + drop set até a falha)."
+      },
+      {
+        "nome": "Panturrilha máquina perna estendida",
+        "repeticoes": "3/12",
+        "urlImagem": "",
+        "observacoes": "Carga: 20/20/20. Intervalo: 45.0s. Se não tiver essa máquina, fazer no aparelho panturrilha sentada."
+      },
+      {
+        "nome": "CARDIO",
+        "repeticoes": "14 minutos",
+        "urlImagem": "",
+        "observacoes": "Ao final do treino, alternando 1 minuto rápido e 1 minuto devagar no aparelho de preferência."
+      }
+    ]
+  },
+
+{
+    "fase": 1,
+    "dia": 4,
+    "nome": "Queima tudo",
+    "exercicios": [
+      {
+        "nome": "Puxada com triângulo",
+        "repeticoes": "20/15/12",
+        "urlImagem": "",
+        "observacoes": "Carga: 17/25/25. Intervalo: 30.0s. Aquecimento: 20 reps com pouco peso no primeiro exercício. Série 1: 20 reps rápidas; Série 2: 15 reps rápidas; Série 3: 12 reps lentas com mais peso."
+      },
+      {
+        "nome": "Desenvolvimento com halteres no banco",
+        "repeticoes": "12/12/10",
+        "urlImagem": "",
+        "observacoes": "Carga: 2,5. Intervalo: 50.0s."
+      },
+      {
+        "nome": "Elevação lateral",
+        "repeticoes": "3/15",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 40.0s."
+      },
+      {
+        "nome": "Rosca direta com barra + Tríceps testa com halter (Combinado)",
+        "repeticoes": "3x (15 reps bíceps + 12 reps tríceps)",
+        "urlImagem": "",
+        "observacoes": "Fazer 15 repetições no bíceps, depois fazer mais 12 repetições no tríceps sem descanso entre eles. Descansar 40 segundos e repetir 3 vezes."
+      },
+      {
+        "nome": "Tríceps polia alta barra reta",
+        "repeticoes": "15/12/10",
+        "urlImagem": "",
+        "observacoes": "Carga: 5. Intervalo: 50.0s."
+      },
+      {
+        "nome": "Prancha baixa",
+        "repeticoes": "3/30segundos",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 30.0s."
+      },
+      {
+        "nome": "Abdominal infra paralelas pernas flexionadas",
+        "repeticoes": "3/12",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 45.0s."
+      },
+      {
+        "nome": "CARDIO",
+        "repeticoes": "20 minutos",
+        "urlImagem": "",
+        "observacoes": "Ao final do treino, alternando 1 minuto moderado e 30 segundos forte."
+      }
+    ]
+  },
+
+{
+    "fase": 1,
+    "dia": 4,
+    "nome": "Queima tudo",
+    "exercicios": [
+      {
+        "nome": "Puxada com triângulo",
+        "repeticoes": "20/15/12",
+        "urlImagem": "",
+        "observacoes": "Carga: 17/25/25. Intervalo: 30.0s. Aquecimento: 20 reps com pouco peso no primeiro exercício. Série 1: 20 reps rápidas; Série 2: 15 reps rápidas; Série 3: 12 reps lentas com mais peso."
+      },
+      {
+        "nome": "Desenvolvimento com halteres no banco",
+        "repeticoes": "12/12/10",
+        "urlImagem": "",
+        "observacoes": "Carga: 2,5. Intervalo: 50.0s."
+      },
+      {
+        "nome": "Elevação lateral",
+        "repeticoes": "3/15",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 40.0s."
+      },
+      {
+        "nome": "Rosca direta com barra + Tríceps testa com halter (Combinado)",
+        "repeticoes": "3x (15 reps bíceps + 12 reps tríceps)",
+        "urlImagem": "",
+        "observacoes": "Fazer 15 repetições no bíceps, depois fazer mais 12 repetições no tríceps sem descanso entre eles. Descansar 40 segundos e repetir 3 vezes."
+      },
+      {
+        "nome": "Tríceps polia alta barra reta",
+        "repeticoes": "15/12/10",
+        "urlImagem": "",
+        "observacoes": "Carga: 5. Intervalo: 50.0s."
+      },
+      {
+        "nome": "Prancha baixa",
+        "repeticoes": "3/30segundos",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 30.0s."
+      },
+      {
+        "nome": "Abdominal infra paralelas pernas flexionadas",
+        "repeticoes": "3/12",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 45.0s."
+      },
+      {
+        "nome": "CARDIO",
+        "repeticoes": "20 minutos",
+        "urlImagem": "",
+        "observacoes": "Ao final do treino, alternando 1 minuto moderado e 30 segundos forte."
+      }
+    ]
+  },
+  {
+    "fase": 1,
+    "dia": 5,
+    "nome": "Pernas definidas",
+    "exercicios": [
+      {
+        "nome": "Abdução de quadril na polia baixa",
+        "repeticoes": "3/12 cada perna",
+        "urlImagem": "",
+        "observacoes": "Carga: 1,25/1.8/1.8. Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições!!"
+      },
+      {
+        "nome": "Elevação de Quadril com Step",
+        "repeticoes": "3/15",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 45.0s."
+      },
+      {
+        "nome": "Agachamento no smith + Agachamento livre (Combinado)",
+        "repeticoes": "3x (10 reps smith + 12 reps livre)",
+        "urlImagem": "",
+        "observacoes": "Carga smith: 15/15/15. Fazer todos seguidos e descansar 50 segundos. São 3 séries."
+      },
+      {
+        "nome": "Leg press",
+        "repeticoes": "3/10 a 12 lentas",
+        "urlImagem": "",
+        "observacoes": "Carga: 40/40/40. Intervalo: 50.0s."
+      },
+      {
+        "nome": "Cadeira flexora",
+        "repeticoes": "15/12/12/30seg",
+        "urlImagem": "",
+        "observacoes": "Carga: 10/15/20. Intervalo: 40.0s. Série de 30 segundos: fazer quantas repetições conseguir nesse tempo."
+      },
+      {
+        "nome": "Abdução de quadril máquina",
+        "repeticoes": "12/24/24",
+        "urlImagem": "",
+        "observacoes": "Carga: 20/15/10. Intervalo: 50.0s. Série 1: 12 repetições lentas. Séries 3 e 4: fazer 8 reps, diminui o peso e faz mais 8, diminui de novo e faz mais 8."
+      },
+      {
+        "nome": "CARDIO",
+        "repeticoes": "14 minutos",
+        "urlImagem": "",
+        "observacoes": "Ao final do treino, alternando 1 minuto rápido e 1 minuto devagar no aparelho de cardio que preferir."
+      }
+    ]
+  },
+
+  {
+    "fase": 1,
+    "dia": 6,
+    "nome": "Braços definidos II",
+    "exercicios": [
+      {
+        "nome": "Variação desenvolvimento com halteres + Elevação frontal alternada com halteres + Abdominal remador no banco (Combinado)",
+        "repeticoes": "3/12 + 3/10 cada lado + 3/15",
+        "urlImagem": "",
+        "observacoes": "Cargas: Desenv. (5), Frontal (3). Fazer todos seguidos, descansar 50 segundos. São 3 séries. Aquecimento: 20 reps com pouco peso no primeiro exercício."
+      },
+      {
+        "nome": "Elevação lateral + Elevação frontal com anilha (Combinado)",
+        "repeticoes": "3/12 + 3/15",
+        "urlImagem": "",
+        "observacoes": "Cargas: Lateral (4), Frontal (5/5/5). Fazer todos seguidos, descansar 50 segundos. São 3 séries."
+      },
+      {
+        "nome": "Rosca martelo + Abdominal oblíquo toca pé (Combinado)",
+        "repeticoes": "3x (15 reps + 30 reps)",
+        "urlImagem": "",
+        "observacoes": "Fazer 15 repetições da rosca martelo, em seguida 30 repetições do abdominal. Descansar 40 segundos, são 3 séries."
+      },
+      {
+        "nome": "Abdominal estrela + Prancha baixa (Combinado)",
+        "repeticoes": "3x (10 reps cada lado + 30 seg)",
+        "urlImagem": "",
+        "observacoes": "Fazer 10 repetições do abdominal de cada lado, em seguida 30 segundos na prancha. Descansar 25 segundos e repetir 3 vezes."
+      },
+      {
+        "nome": "CARDIO",
+        "repeticoes": "20 minutos",
+        "urlImagem": "",
+        "observacoes": "Ao final do treino, alternando 1 minuto moderado e 30 segundos forte."
+      }
+    ]
+  }
+
+
+]
