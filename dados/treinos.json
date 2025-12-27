@@ -31,19 +31,19 @@
       {
         "nome": "Glúteo na máquina em pé",
         "repeticoes": "3/15 cada perna",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/gluteoMaquinaEmPe.png",
         "observacoes": "Carga: 15/15/15. Execução unilateral."
       },
       {
         "nome": "Panturrilha na máquina",
         "repeticoes": "15/12/10",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/panturrilhaNaMaquina.png",
         "observacoes": "Carga: 10. Intervalo: 45s."
       },
       {
         "nome": "CARDIO",
-        "repeticoes": "14 minutos",
-        "urlImagem": "",
+        "repeticoes": "20 minutos",
+        "urlImagem": "imagens/exercicios/cardio.png",
         "observacoes": "Ao final do treino, alternando 1 minuto rápido e 1 minuto devagar no aparelho de preferência."
       }
     ]
