@@ -385,7 +385,7 @@ select option {
 /* CONTAINER DO CHECKBOX DO EXERCÍCIO */
 .exercicio-checkbox {
     margin-left: 1rem; /* Espaçamento à esquerda */
-    padding-right: 0.5rem; /* Espaçamento interno direito */
+    padding-right: 1.5rem; /* Espaçamento interno direito */
     display: flex;
     align-items: center;
 }
