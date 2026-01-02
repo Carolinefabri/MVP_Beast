@@ -19,7 +19,7 @@
       {
         "nome": "Cadeira flexora",
         "repeticoes": "12/12/10/10",
-        "urlImagem": "imagens/exercicios/CadeiraFlexora.png",
+        "urlImagem": "/imagens/exercicios/CadeiraFlexora.png",
         "observacoes": " Intervalo: 50s. Séries 1 e 2: 12 repetições rápidas. Séries 3 e 4: 10 repetições lentas."
       },
       {
@@ -56,7 +56,7 @@
       {
         "nome": "Remada máquina pegada neutra",
         "repeticoes": "3x10 a 12 lentas",
-        "urlImagem": "imagens/exercicios/remadaMaquinaPegadaNeutra.png",
+        "urlImagem": "/imagens/exercicios/remadaMaquinaPegadaNeutra.png",
         "observacoes": "Intervalo: 50s. Aquecimento: 20 reps com pouco peso no primeiro exercício."
       },
       {
