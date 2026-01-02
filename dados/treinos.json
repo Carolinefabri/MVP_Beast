@@ -118,7 +118,7 @@
       {
         "nome": "Cadeira flexora",
         "repeticoes": "15/12/10",
-        "urlImagem": "imagens/exercicios/cadeiraFlexora.png",
+        "urlImagem": "imagens/exercicios/27.png",
         "observacoes": "Intervalo: 50.0s. Série 1: 15 repetições; Série 2: 12 repetições; Série 3: 10 repetições."
       },
       {
@@ -317,13 +317,13 @@
       {
         "nome": "Leg press",
         "repeticoes": "3/15",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/26.png",
         "observacoes": "Intervalo: 50s."
       },
       {
         "nome": "Cadeira extensora",
         "repeticoes": "3/12 lentas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/9.png",
         "observacoes": "Combinado com agachamento duplo."
       },
       {
@@ -335,13 +335,13 @@
       {
         "nome": "Cadeira flexora",
         "repeticoes": "20/15/12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/27.png",
         "observacoes": "Intervalo: 45s. Série 1: 20 repetições rápidas. Série 2: 15 repetições lentas. Série 3: 12 repetições lentas com mais peso."
       },
       {
         "nome": "Abdução de quadril máquina",
         "repeticoes": "3/15 lentas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/10.png",
         "observacoes": "Intervalo: 40s. Fazer as repetições devagar e na ultima repetição, segurar 10 segundos aberto em isometria!"
       },
       {
@@ -360,7 +360,7 @@
       {
         "nome": "Puxada aberta",
         "repeticoes": "15/12/10/10",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/3.png",
         "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Intervalo: 50s. Movimentos lentos. Aumentar o peso a cada série!"
       },
       {
@@ -372,7 +372,7 @@
       {
         "nome": "Variação desenvolvimento com halteres",
         "repeticoes": "3/12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/19.png",
         "observacoes": "Combinado com remada curvada. Fazer os dois, descansar 50 segundos, são 3 séries."
       },
       {
@@ -433,7 +433,7 @@
       {
         "nome": "Mesa flexora",
         "repeticoes": "3/12 lentas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/mesa-flexora.png",
         "observacoes": "Combinado com good morning."
       },
       {
@@ -476,13 +476,13 @@
       {
         "nome": "Remada máquina pegada neutra",
         "repeticoes": "15/12/10/10",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/1.png",
         "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Intervalo: 50s. Aumentando a carga conforme diminui as repetições!! Serie 1: 15 repetições. Serie 2: 12 reps. Serie 3 e 4: 10 reps."
       },
       {
         "nome": "Puxada com triângulo",
         "repeticoes": "3/10 a 12 lentas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/12.png",
         "observacoes": "Intervalo: 50s. Na ultima série, fazer 10 repetições diminuir o peso e fazer mais 10 repetições."
       },
       {
@@ -543,7 +543,7 @@
       {
         "nome": "Leg press",
         "repeticoes": "12/10/8",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/26.png",
         "observacoes": "Combinado com agachamento duplo."
       },
       {
@@ -555,13 +555,13 @@
       {
         "nome": "Cadeira flexora",
         "repeticoes": "15/12/10/10",
-        "urlImagem": "",
+        "urlImagem":"imagens/exercicios/27.png",
         "observacoes": "Intervalo: 45s. Conforme diminui as repetições, aumentar os pesos. Serie 1: 15 reps (menos peso). Serie 2: 12 reps (um pouco mais de peso). Series 3 e 4: 10 reps (mais peso)."
       },
       {
         "nome": "Cadeira extensora",
         "repeticoes": "3/12 lentas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/9.png",
         "observacoes": "Combinado com afundo com halteres."
       },
       {
@@ -592,7 +592,7 @@
       {
         "nome": "Desenvolvimento com halteres no banco",
         "repeticoes": "12/12/10/10",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/13.png",
         "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Intervalo: 50s."
       },
       {
@@ -659,25 +659,25 @@
       {
         "nome": "Cadeira extensora",
         "repeticoes": "3/10 a 12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/9.png",
         "observacoes": "Intervalo: 45s. Na ultima serie, fazer 10 repetições, diminuir metade do peso e fazer mais 10 repetições. Fazer as repetições lentas!!!"
       },
       {
         "nome": "Leg press",
         "repeticoes": "3/10 a 12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/26.png",
         "observacoes": "Intervalo: 50s. Na ultima serie, fazer 10 repetições, descansar 10 segundos e fazer mais 10 sem mudar o peso!!! Fazer repetiçoes lentas!!!"
       },
       {
         "nome": "Mesa flexora",
         "repeticoes": "15/12/30seg",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/mesa-flexora.png",
         "observacoes": "Intervalo: 45s. Conforme diminuem as repetições, aumentar o peso! Serie 1: 15 reps rápidas. Serie 2: 12 reps rápidas. Serie 3: fazer por 30 segundos quantas repetições conseguir."
       },
       {
         "nome": "Abdução de quadril máquina",
         "repeticoes": "3/15",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/10.png",
         "observacoes": "Combinado com agachamento livre."
       },
       {
@@ -702,7 +702,7 @@
       {
         "nome": "Puxada com triângulo",
         "repeticoes": "20/15/15/12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/12.png",
         "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Intervalo: 50s. Repetições rápidas nas 3 primeiras séries. Na última série 12 repetições controladas."
       },
       {
@@ -738,7 +738,7 @@
       {
         "nome": "Elevação lateral",
         "repeticoes": "3/12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/14.png",
         "observacoes": "Combinado com desenvolvimento. Fazer os dois, descansar 50 segundos, são 3 séries. Intervalo: 50s."
       },
       {
@@ -769,13 +769,13 @@
       {
         "nome": "Sumô com halter",
         "repeticoes": "2/10 a 12 +30seg",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/8.png",
         "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Intervalo: 50s. Fazer as repetições lentas. Na última série, vai fazer 30 segundos do movimento quantas repetições conseguir."
       },
       {
         "nome": "Mesa flexora",
         "repeticoes": "3/12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/mesa-flexora.png",
         "observacoes": "Combinado com good morning."
       },
       {
@@ -799,7 +799,7 @@
       {
         "nome": "Abdução de quadril máquina",
         "repeticoes": "4/20",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/10.png",
         "observacoes": "Intervalo: 45s."
       },
       {
@@ -824,7 +824,7 @@
       {
         "nome": "Puxada aberta",
         "repeticoes": "20/15/12/10",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/3.png",
         "observacoes": "Intervalo: 30s. Na hora de subir o peso, fazer devagar sentindo as costas trabalharem. Série 1: 20 reps. Serie 2: 15 reps. Serie 3: 12 reps com mais peso. Serie 4: 10 reps."
       },
       {
@@ -866,7 +866,7 @@
       {
         "nome": "Elevação lateral",
         "repeticoes": "3/10 a 12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/14.png",
         "observacoes": "Combinado com prancha baixa."
       },
       {
@@ -891,19 +891,19 @@
       {
         "nome": "Cadeira extensora",
         "repeticoes": "3/10 a 12 lentas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/9.png",
         "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Intervalo: 50s."
       },
       {
         "nome": "Leg press",
         "repeticoes": "20/15/12/12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/26.png",
         "observacoes": "Intervalo: 50s. Descer o movimento devagar, controlando bem. E sobe rápido."
       },
       {
         "nome": "Sumô com halter",
         "repeticoes": "3/12 lentas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/8.png",
         "observacoes": "Combinado com agachamento sumô."
       },
       {
@@ -915,13 +915,13 @@
       {
         "nome": "Mesa flexora",
         "repeticoes": "3/10 a 12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/mesa-flexora.png",
         "observacoes": "Intervalo: 45s. Segurar 2 segundos lá em cima e descer devagar em todas as repetições."
       },
       {
         "nome": "Abdução de quadril máquina",
         "repeticoes": "15/12/10/10",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/10.png",
         "observacoes": "Combinado com agachamento isometria."
       },
       {
@@ -946,7 +946,7 @@
       {
         "nome": "Variação desenvolvimento com halteres",
         "repeticoes": "3/12 a 15",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/19.png",
         "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Combinado com abdominal supra banco declinado."
       },
       {
@@ -982,7 +982,7 @@
       {
         "nome": "Elevação lateral",
         "repeticoes": "3/15",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/14.png",
         "observacoes": "Combinado com abdominal tesoura."
       },
       {
@@ -1002,6 +1002,342 @@
         "repeticoes": "20 minutos",
         "urlImagem": "imagens/exercicios/cardio.png",
         "observacoes": "Ao final do treino, fazer 20 minutos alternando 1 minuto moderado, 1 minuto forte até dar os 20 minutos no aparelho de cardio que preferir!! Pode fazer transport alternando 1 minuto moderado, 30 segundos forte."
+      }
+    ]
+  },
+  {
+    "fase": 4,
+    "dia": 1,
+    "nome": "Membros inferiores",
+    "exercicios": [
+      {
+        "nome": "Agachamento no smith",
+        "repeticoes": "3/12 lentas",
+        "urlImagem": "",
+        "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Combinado com leg press. Intervalo: 50s."
+      },
+      {
+        "nome": "Leg press",
+        "repeticoes": "3/8 a 10",
+        "urlImagem": "imagens/exercicios/26.png",
+        "observacoes": "Combinado com agachamento smith. Intervalo: 60s. Na ultima série, vai fazer as 10 repetições, descansar 10 segundos e fazer mais 10 sem diminuir o peso!!! FORÇA!"
+      },
+      {
+        "nome": "Sumô com halter",
+        "repeticoes": "12/12/10/10",
+        "urlImagem": "imagens/exercicios/8.png",
+        "observacoes": "Combinado com elevação de quadril com step."
+      },
+      {
+        "nome": "Elevação de Quadril com Step",
+        "repeticoes": "4/12 lentas",
+        "urlImagem": "",
+        "observacoes": "Combinado com sumô com halter. Na elevação de quadril, em todas as repetições segurar 2 segundos lá em cima em isometria. Fazer os dois, descansar 50 segundos, são 4 séries. Intervalo: 50s."
+      },
+      {
+        "nome": "Cadeira extensora",
+        "repeticoes": "15/12/10",
+        "urlImagem": "imagens/exercicios/9.png",
+        "observacoes": "Intervalo: 45s. Conforme vai diminuindo as repetições, aumentar o peso!! Série 1: 15 repetições. Série 2: 12 reps. Série 3: 10 reps."
+      },
+      {
+        "nome": "Abdução de quadril máquina",
+        "repeticoes": "3/10 a 12",
+        "urlImagem": "imagens/exercicios/10.png",
+        "observacoes": "Intervalo: 40s. Abrir rápido e fechar devagar, controlando a volta. Sente queimar e tremer o bumbum!!"
+      },
+      {
+        "nome": "Panturrilha máquina perna estendida",
+        "repeticoes": "3/15",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 40s."
+      }
+    ]
+  },
+  {
+    "fase": 4,
+    "dia": 2,
+    "nome": "Membros superiores e ABS",
+    "exercicios": [
+      {
+        "nome": "Barra fixa graviton pegada fechada",
+        "repeticoes": "3/10 a 12",
+        "urlImagem": "",
+        "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Intervalo: 50s. Quanto mais peso vc colocar no aparelho, mais leve vai ficar pra subir!"
+      },
+      {
+        "nome": "Pull down na polia barra reta",
+        "repeticoes": "3/15",
+        "urlImagem": "",
+        "observacoes": "Combinado com rosca alternada halteres. No pull down, descer em 3 segundos."
+      },
+      {
+        "nome": "Rosca alternada halteres",
+        "repeticoes": "3/12 cada lado",
+        "urlImagem": "",
+        "observacoes": "Combinado com pull down. Fazer os dois, descansar 50 segundos, são 3 séries. Intervalo: 50s."
+      },
+      {
+        "nome": "Remada curvada com barra pegada supinada",
+        "repeticoes": "12/10/10",
+        "urlImagem": "",
+        "observacoes": "Combinado com variação desenvolvimento com halteres. Aumentar os pesos a cada série."
+      },
+      {
+        "nome": "Variação desenvolvimento com halteres",
+        "repeticoes": "15/10/8",
+        "urlImagem": "imagens/exercicios/19.png",
+        "observacoes": "Combinado com remada curvada. Fazer os dois, descansar 50 segundos, são 3 séries. Intervalo: 50s."
+      },
+      {
+        "nome": "Tríceps francês com halteres",
+        "repeticoes": "3/12 a 15",
+        "urlImagem": "",
+        "observacoes": "Combinado com tríceps supinado com halteres."
+      },
+      {
+        "nome": "Tríceps Supinado com Halteres",
+        "repeticoes": "3/15",
+        "urlImagem": "",
+        "observacoes": "Combinado com tríceps francês. Fazer os dois, descansar 50 segundos, são 3 séries. Intervalo: 50s."
+      },
+      {
+        "nome": "Abdominal Infra Suspenso Pernas Flexionadas",
+        "repeticoes": "3/10",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 50s."
+      },
+      {
+        "nome": "Abdominal estrela",
+        "repeticoes": "3/12 cada lado",
+        "urlImagem": "",
+        "observacoes": "Combinado com prancha baixa."
+      },
+      {
+        "nome": "Prancha baixa",
+        "repeticoes": "3/30 segundos",
+        "urlImagem": "",
+        "observacoes": "Combinado com abdominal estrela. Fazer 12 repetições de cada lado do abdominal, em seguida 30 segundos da prancha. Descansar 45 segundos, são 3 séries."
+      },
+      {
+        "nome": "CARDIO",
+        "repeticoes": "20 minutos",
+        "urlImagem": "imagens/exercicios/cardio.png",
+        "observacoes": "Ao final do treino, fazer 20 minutos alternando 1 minuto moderado, 1 minuto forte até dar os 20 minutos no aparelho de cardio que preferir!! Pode fazer transport alternando 1 minuto moderado, 1 minuto forte."
+      }
+    ]
+  },
+  {
+    "fase": 4,
+    "dia": 3,
+    "nome": "Membros inferiores",
+    "exercicios": [
+      {
+        "nome": "Agachamento livre com barra",
+        "repeticoes": "20/15/12/10",
+        "urlImagem": "",
+        "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Intervalo: 60s."
+      },
+      {
+        "nome": "Retrocesso",
+        "repeticoes": "3/12 cada perna",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 25s. Descansar depois de fazer as duas pernas."
+      },
+      {
+        "nome": "Mesa flexora",
+        "repeticoes": "3/15 rápidas",
+        "urlImagem": "imagens/exercicios/mesa-flexora.png",
+        "observacoes": "Combinado com good morning."
+      },
+      {
+        "nome": "Good morning",
+        "repeticoes": "3/10 lentas",
+        "urlImagem": "",
+        "observacoes": "Combinado com mesa flexora. Fazer os dois, descansar 50 segundos, são 3 séries. Intervalo: 50s."
+      },
+      {
+        "nome": "Glúteo coice na polia",
+        "repeticoes": "3/12 cada perna",
+        "urlImagem": "",
+        "observacoes": ""
+      },
+      {
+        "nome": "Levantamento terra",
+        "repeticoes": "12/12/8",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 55s."
+      },
+      {
+        "nome": "Panturrilha na máquina",
+        "repeticoes": "12/10/10/8",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 50s. Aumentar o peso a cada série."
+      }
+    ]
+  },
+  {
+    "fase": 4,
+    "dia": 4,
+    "nome": "Membros superiores e ABS",
+    "exercicios": [
+      {
+        "nome": "Remada máquina pegada neutra",
+        "repeticoes": "15/12/10/10",
+        "urlImagem": "imagens/exercicios/1.png",
+        "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Intervalo: 50s. Aumentando a carga conforme diminui as repetições!! Serie 1: 15 repetições. Serie 2: 12 reps. Serie 3 e 4: 10 reps."
+      },
+      {
+        "nome": "Remada Baixa Triangulo",
+        "repeticoes": "20/15/12",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 45s."
+      },
+      {
+        "nome": "Supino reto com halteres",
+        "repeticoes": "10/12/15",
+        "urlImagem": "",
+        "observacoes": "Combinado com tríceps testa com halter. Tentar manter o peso em todas as séries."
+      },
+      {
+        "nome": "Tríceps testa com halter",
+        "repeticoes": "10/12/15",
+        "urlImagem": "",
+        "observacoes": "Combinado com supino reto. Fazer os dois, descansar 50 segundos, são 3 séries. Intervalo: 50s."
+      },
+      {
+        "nome": "Elevação lateral",
+        "repeticoes": "3/12",
+        "urlImagem": "imagens/exercicios/14.png",
+        "observacoes": "Intervalo: 50s."
+      },
+      {
+        "nome": "Elevação frontal com anilha",
+        "repeticoes": "3/20",
+        "urlImagem": "",
+        "observacoes": "Combinado com remada alta com barra."
+      },
+      {
+        "nome": "Remada alta com barra",
+        "repeticoes": "3/12",
+        "urlImagem": "",
+        "observacoes": "Combinado com elevação frontal. Fazer os dois, descansar 50 segundos, são 3 séries. Intervalo: 50s."
+      },
+      {
+        "nome": "Abdominal bicicleta",
+        "repeticoes": "4/15",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 45s. Fazer rápido, sentindo bem o abdomen!!!"
+      },
+      {
+        "nome": "CARDIO",
+        "repeticoes": "20 minutos",
+        "urlImagem": "imagens/exercicios/cardio.png",
+        "observacoes": "Ao final do treino, fazer 20 minutos alternando 1 minuto moderado, 1 minuto forte até dar os 20 minutos no aparelho de cardio que preferir!! Pode fazer transport alternando 1 minuto moderado, 1 minuto forte."
+      }
+    ]
+  },
+  {
+    "fase": 4,
+    "dia": 5,
+    "nome": "Membros inferiores",
+    "exercicios": [
+      {
+        "nome": "Agachamento livre com barra",
+        "repeticoes": "3/10 a 12",
+        "urlImagem": "",
+        "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!! Intervalo: 60s."
+      },
+      {
+        "nome": "Afundo no Smith com Step na Frente",
+        "repeticoes": "3/12 cada perna",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 20s. Descansar após cada perna."
+      },
+      {
+        "nome": "Cadeira extensora",
+        "repeticoes": "3/10 a 12 lentas",
+        "urlImagem": "imagens/exercicios/9.png",
+        "observacoes": "Combinado com agachamento livre."
+      },
+      {
+        "nome": "Agachamento livre",
+        "repeticoes": "3/20 rápidas",
+        "urlImagem": "",
+        "observacoes": "Combinado com cadeira extensora. Fazer os dois, descansar 50 segundos, são 3 séries. Intervalo: 50s."
+      },
+      {
+        "nome": "Leg press",
+        "repeticoes": "3/10 a 12",
+        "urlImagem": "imagens/exercicios/26.png",
+        "observacoes": "Intervalo: 60s. Descer o movimento devagar, controlando bem. E sobe rápido."
+      },
+      {
+        "nome": "Cadeira flexora",
+        "repeticoes": "15/12/10/10",
+        "urlImagem": "imagens/exercicios/27.png",
+        "observacoes": "Intervalo: 45s."
+      },
+      {
+        "nome": "Stiff com barra",
+        "repeticoes": "3/10 lentas",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 50s. Desce em 2 segundos e sobe rápido."
+      }
+    ]
+  },
+  {
+    "fase": 4,
+    "dia": 6,
+    "nome": "Cardio de sábado",
+    "exercicios": [
+      {
+        "nome": "Esteira",
+        "repeticoes": "5 minutos",
+        "urlImagem": "imagens/exercicios/cardio.png",
+        "observacoes": ""
+      },
+      {
+        "nome": "Abdominal militar",
+        "repeticoes": "3/20",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 30s."
+      },
+      {
+        "nome": "Abdominal infra pernas estendidas",
+        "repeticoes": "3/15",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 30s."
+      },
+      {
+        "nome": "Esteira",
+        "repeticoes": "5 minutos",
+        "urlImagem": "imagens/exercicios/cardio.png",
+        "observacoes": "Com inclinação."
+      },
+      {
+        "nome": "Abdominal bicicleta",
+        "repeticoes": "3/25",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 30s."
+      },
+      {
+        "nome": "Abdominal canivete alternado",
+        "repeticoes": "3/15 cada lado",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 35s."
+      },
+      {
+        "nome": "Abdominal oblíquo alternado",
+        "repeticoes": "3/12 cada perna",
+        "urlImagem": "",
+        "observacoes": "Intervalo: 30s."
+      },
+      {
+        "nome": "Esteira",
+        "repeticoes": "12 minutos",
+        "urlImagem": "imagens/exercicios/cardio.png",
+        "observacoes": "Fazer 30 segundos forte, 1 minuto moderado até dar os 12 minutos."
       }
     ]
   }
