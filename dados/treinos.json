@@ -53,22 +53,22 @@
     "dia": 2,
     "nome": "Braços definidos",
     "exercicios": [
-      {
+      {2
         "nome": "Remada máquina pegada neutra",
         "repeticoes": "3x10 a 12 lentas",
-        "urlImagem": "/imagens/exercicios/remadaMaquinaPegadaNeutra.png",
+        "urlImagem": "imagens/exercicios/1.png",
         "observacoes": "Intervalo: 50s. Aquecimento: 20 reps com pouco peso no primeiro exercício."
       },
       {
         "nome": "Puxada fechada pegada supinada",
         "repeticoes": "12/10/10",
-        "urlImagem": "imagens/exercicios/puxadaFechadaPegadaSupinada.png",
+        "urlImagem": "imagens/exercicios/2.png",
         "observacoes": "Intervalo: 45s. Série 1: 12 reps rápidas. Séries 2 e 3: 10 reps lentas."
       },
       {
         "nome": "Puxada aberta",
         "repeticoes": "3x12 a 15 lentas",
-        "urlImagem": "imagens/exercicios/puxadaAberta.png",
+        "urlImagem": "imagens/exercicios/3.png",
         "observacoes": " Intervalo: 50s. Repetições lentas, controlando a volta."
       },
       {
@@ -80,19 +80,19 @@
       {
         "nome": "Supino máquina",
         "repeticoes": "12/10/8/8",
-        "urlImagem": "imagens/exercicios/supinoMaquina.png",
+        "urlImagem": "imagens/exercicios/4.png",
         "observacoes": "Intervalo: 50s. A cada série, aumentar o peso."
       },
       {
         "nome": "Variação elevação frontal com halter",
         "repeticoes": "3x15 cada lado",
-        "urlImagem": "imagens/exercicios/variaçãoElevaçãoFrontalComHalter.png",
+        "urlImagem": "imagens/exercicios/6.png",
         "observacoes": "Intervalo: 50s."
       },
       {
         "nome": "Abdominal máquina",
         "repeticoes": "4x20",
-        "urlImagem": "imagens/exercicios/abdominalMaquina.png",
+        "urlImagem": "imagens/exercicios/5.png",
         "observacoes": "Intervalo: 30s."
       },
       {
