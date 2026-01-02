@@ -192,13 +192,13 @@
       {
         "nome": "Prancha baixa",
         "repeticoes": "3/30segundos",
-        "urlImagem": "",
+        "urlImagem":  "imagens/exercicios/17.png",
         "observacoes": "Intervalo: 30.0s."
       },
       {
         "nome": "Abdominal infra paralelas pernas flexionadas",
         "repeticoes": "3/12",
-        "urlImagem": "imagens/exercicios/17.png",
+        "urlImagem": "imagens/exercicios/18.png",
         "observacoes": "Intervalo: 45.0s."
       },
       {
