@@ -8,37 +8,37 @@
         "nome": "Agachamento frontal com halter",
         "repeticoes": "3/12",
         "urlImagem": "imagens/exercicios/Agachamento-frontal-com-halteres.png",
-        "observacoes": "Carga: 10/10/10. Intervalo: 50s. Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições."
+        "observacoes": " Intervalo: 50s. Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições."
       },
       {
         "nome": "Leg horizontal",
         "repeticoes": "12/10/8",
         "urlImagem": "imagens/exercicios/legPress.png",
-        "observacoes": "Carga: 40/50/50. Intervalo: 50s. Série 1 e 2: reps rápidas. Série 3: 8 reps lentas com mais peso."
+        "observacoes": "Intervalo: 50s. Série 1 e 2: reps rápidas. Série 3: 8 reps lentas com mais peso."
       },
       {
         "nome": "Cadeira flexora",
         "repeticoes": "12/12/10/10",
         "urlImagem": "imagens/exercicios/CadeiraFlexora.png",
-        "observacoes": "Carga: 20/20/20/20. Intervalo: 50s. Séries 1 e 2: 12 repetições rápidas. Séries 3 e 4: 10 repetições lentas."
+        "observacoes": " Intervalo: 50s. Séries 1 e 2: 12 repetições rápidas. Séries 3 e 4: 10 repetições lentas."
       },
       {
         "nome": "Mesa flexora",
         "repeticoes": "3/8",
         "urlImagem": "imagens/exercicios/mesa-flexora.png",
-        "observacoes": "Carga: 2,5-5/2,5-5/2,5-5. Intervalo: 50s."
+        "observacoes": "Intervalo: 50s."
       },
       {
         "nome": "Glúteo na máquina em pé",
         "repeticoes": "3/15 cada perna",
         "urlImagem": "imagens/exercicios/gluteoMaquinaEmPe.png",
-        "observacoes": "Carga: 15/15/15. Execução unilateral."
+        "observacoes": " Execução unilateral."
       },
       {
         "nome": "Panturrilha na máquina",
         "repeticoes": "15/12/10",
         "urlImagem": "imagens/exercicios/panturrilhaNaMaquina.png",
-        "observacoes": "Carga: 10. Intervalo: 45s."
+        "observacoes": " Intervalo: 45s."
       },
       {
         "nome": "CARDIO",
@@ -56,49 +56,49 @@
       {
         "nome": "Remada máquina pegada neutra",
         "repeticoes": "3x10 a 12 lentas",
-        "urlImagem": "",
-        "observacoes": "Carga: 15/17,5/17,5. Intervalo: 50s. Aquecimento: 20 reps com pouco peso no primeiro exercício."
+        "urlImagem": "imagens/exercicios/remadaMaquinaPegadaNeutra.png",
+        "observacoes": "Intervalo: 50s. Aquecimento: 20 reps com pouco peso no primeiro exercício."
       },
       {
         "nome": "Puxada fechada pegada supinada",
         "repeticoes": "12/10/10",
-        "urlImagem": "",
-        "observacoes": "Carga: 19,5/25/25. Intervalo: 45s. Série 1: 12 reps rápidas. Séries 2 e 3: 10 reps lentas."
+        "urlImagem": "imagens/exercicios/puxadaFechadaPegadaSupinada.png",
+        "observacoes": "Intervalo: 45s. Série 1: 12 reps rápidas. Séries 2 e 3: 10 reps lentas."
       },
       {
         "nome": "Puxada aberta",
         "repeticoes": "3x12 a 15 lentas",
-        "urlImagem": "",
-        "observacoes": "Carga: 17,5/20/20. Intervalo: 50s. Repetições lentas, controlando a volta."
+        "urlImagem": "imagens/exercicios/puxadaAberta.png",
+        "observacoes": " Intervalo: 50s. Repetições lentas, controlando a volta."
       },
       {
         "nome": "Peck deck",
         "repeticoes": "3x15",
-        "urlImagem": "",
-        "observacoes": "Carga: 15/15/15. Intervalo: 30s."
+        "urlImagem": "imagens/exercicios/PeckDeck.png",
+        "observacoes": " Intervalo: 30s."
       },
       {
         "nome": "Supino máquina",
         "repeticoes": "12/10/8/8",
-        "urlImagem": "",
-        "observacoes": "Carga: 10/12,5/15/17,5. Intervalo: 50s. A cada série, aumentar o peso."
+        "urlImagem": "imagens/exercicios/supinoMaquina.png",
+        "observacoes": "Intervalo: 50s. A cada série, aumentar o peso."
       },
       {
         "nome": "Variação elevação frontal com halter",
         "repeticoes": "3x15 cada lado",
-        "urlImagem": "",
-        "observacoes": "Carga: 3. Intervalo: 50s."
+        "urlImagem": "imagens/exercicios/variaçãoElevaçãoFrontalComHalter.png",
+        "observacoes": "Intervalo: 50s."
       },
       {
         "nome": "Abdominal máquina",
         "repeticoes": "4x20",
-        "urlImagem": "",
-        "observacoes": "Carga: 5/7,5/10/10. Intervalo: 30s."
+        "urlImagem": "imagens/exercicios/abdominalMaquina.png",
+        "observacoes": "Intervalo: 30s."
       },
       {
         "nome": "CARDIO",
         "repeticoes": "20 minutos",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/cardio.png",
         "observacoes": "Ao final do treino, alternando 1 minuto moderado e 30 segundos forte."
       }
     ]
@@ -113,42 +113,42 @@
         "nome": "Sumô com halter",
         "repeticoes": "3/15",
         "urlImagem": "",
-        "observacoes": "Carga: 10. Intervalo: 45.0s. Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições!!"
+        "observacoes": " Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições!!"
       },
       {
         "nome": "Cadeira flexora",
         "repeticoes": "15/12/10",
         "urlImagem": "",
-        "observacoes": "Carga: 15. Intervalo: 50.0s. Série 1: 15 repetições; Série 2: 12 repetições; Série 3: 10 repetições."
+        "observacoes": "Intervalo: 50.0s. Série 1: 15 repetições; Série 2: 12 repetições; Série 3: 10 repetições."
       },
       {
         "nome": "Cadeira extensora",
         "repeticoes": "3/10 a 12",
         "urlImagem": "",
-        "observacoes": "Carga: 10/15/15/7,5. Intervalo: 45.0s. Controla a volta, descer em 3 segundos e subir rápido. Na última série: 10 repetições, diminuir metade do peso e fazer mais 10, diminuir de novo e fazer até falhar!!!"
+        "observacoes": "Intervalo: 45.0s. Controla a volta, descer em 3 segundos e subir rápido. Na última série: 10 repetições, diminuir metade do peso e fazer mais 10, diminuir de novo e fazer até falhar!!!"
       },
       {
         "nome": "Mesa flexora",
         "repeticoes": "3/10 a 12 lentas",
         "urlImagem": "",
-        "observacoes": "Carga: 2,5. Intervalo: 60.0s."
+        "observacoes": " Intervalo: 60.0s."
       },
       {
         "nome": "Abdução de quadril máquina",
         "repeticoes": "3/10 a 12",
         "urlImagem": "",
-        "observacoes": "Carga: 20. Intervalo: 50.0s. Última série: mesmo esquema da extensora (10 reps + drop set até a falha)."
+        "observacoes": " Intervalo: 50.0s. Última série: mesmo esquema da extensora (10 reps + drop set até a falha)."
       },
       {
         "nome": "Panturrilha máquina perna estendida",
         "repeticoes": "3/12",
         "urlImagem": "",
-        "observacoes": "Carga: 20/20/20. Intervalo: 45.0s. Se não tiver essa máquina, fazer no aparelho panturrilha sentada."
+        "observacoes": "Intervalo: 45.0s. Se não tiver essa máquina, fazer no aparelho panturrilha sentada."
       },
       {
         "nome": "CARDIO",
-        "repeticoes": "14 minutos",
-        "urlImagem": "",
+        "repeticoes": "20 minutos",
+        "urlImagem": "imagens/exercicios/cardio.png",
         "observacoes": "Ao final do treino, alternando 1 minuto rápido e 1 minuto devagar no aparelho de preferência."
       }
     ]
@@ -204,7 +204,7 @@
       {
         "nome": "CARDIO",
         "repeticoes": "20 minutos",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/cardio.png",
         "observacoes": "Ao final do treino, alternando 1 minuto moderado e 30 segundos forte."
       }
     ]
@@ -260,7 +260,7 @@
       {
         "nome": "CARDIO",
         "repeticoes": "20 minutos",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/cardio.png",
         "observacoes": "Ao final do treino, alternando 1 minuto moderado e 30 segundos forte."
       }
     ]
@@ -308,8 +308,8 @@
       },
       {
         "nome": "CARDIO",
-        "repeticoes": "14 minutos",
-        "urlImagem": "",
+        "repeticoes": "20 minutos",
+        "urlImagem": "imagens/exercicios/cardio.png",
         "observacoes": "Ao final do treino, alternando 1 minuto rápido e 1 minuto devagar no aparelho de cardio que preferir."
       }
     ]
@@ -347,7 +347,7 @@
       {
         "nome": "CARDIO",
         "repeticoes": "20 minutos",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/cardio.png",
         "observacoes": "Ao final do treino, alternando 1 minuto moderado e 30 segundos forte."
       }
     ]
