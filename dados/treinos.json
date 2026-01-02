@@ -112,37 +112,37 @@
       {
         "nome": "Sumô com halter",
         "repeticoes": "3/15",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/8.png",
         "observacoes": " Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições!!"
       },
       {
         "nome": "Cadeira flexora",
         "repeticoes": "15/12/10",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/cadeiraFlexora.png",
         "observacoes": "Intervalo: 50.0s. Série 1: 15 repetições; Série 2: 12 repetições; Série 3: 10 repetições."
       },
       {
         "nome": "Cadeira extensora",
         "repeticoes": "3/10 a 12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/9.png",
         "observacoes": "Intervalo: 45.0s. Controla a volta, descer em 3 segundos e subir rápido. Na última série: 10 repetições, diminuir metade do peso e fazer mais 10, diminuir de novo e fazer até falhar!!!"
       },
       {
         "nome": "Mesa flexora",
         "repeticoes": "3/10 a 12 lentas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/mesa-flexora.png",
         "observacoes": " Intervalo: 60.0s."
       },
       {
         "nome": "Abdução de quadril máquina",
         "repeticoes": "3/10 a 12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/10.png",
         "observacoes": " Intervalo: 50.0s. Última série: mesmo esquema da extensora (10 reps + drop set até a falha)."
       },
       {
         "nome": "Panturrilha máquina perna estendida",
         "repeticoes": "3/12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/11.png",
         "observacoes": "Intervalo: 45.0s. Se não tiver essa máquina, fazer no aparelho panturrilha sentada."
       },
       {
