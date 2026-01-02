@@ -163,13 +163,13 @@
         "nome": "Puxada com triângulo",
         "repeticoes": "20/15/12",
         "urlImagem": "imagens/exercicios/12.png",
-        "observacoes": "Carga: 17/25/25. Intervalo: 30.0s. Aquecimento: 20 reps com pouco peso no primeiro exercício. Série 1: 20 reps rápidas; Série 2: 15 reps rápidas; Série 3: 12 reps lentas com mais peso."
+        "observacoes": "Intervalo: 30.0s. Aquecimento: 20 reps com pouco peso no primeiro exercício. Série 1: 20 reps rápidas; Série 2: 15 reps rápidas; Série 3: 12 reps lentas com mais peso."
       },
       {
         "nome": "Desenvolvimento com halteres no banco",
         "repeticoes": "12/12/10",
         "urlImagem": "imagens/exercicios/13.png",
-        "observacoes": "Carga: 2,5. Intervalo: 50.0s."
+        "observacoes": "Intervalo: 50.0s."
       },
       {
         "nome": "Elevação lateral",
@@ -187,7 +187,7 @@
         "nome": "Tríceps polia alta barra reta",
         "repeticoes": "15/12/10",
         "urlImagem": "imagens/exercicios/16.png",
-        "observacoes": "Carga: 5. Intervalo: 50.0s."
+        "observacoes": "Intervalo: 50.0s."
       },
       {
         "nome": "Prancha baixa",
@@ -218,7 +218,7 @@
         "nome": "Abdução de quadril na polia baixa",
         "repeticoes": "3/12 cada perna",
         "urlImagem": "imagens/exercicios/23.png",
-        "observacoes": "Carga: 1,25/1.8/1.8. Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições!!"
+        "observacoes": "Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições!!"
       },
       {
         "nome": "Elevação de Quadril com Step",
@@ -230,25 +230,25 @@
         "nome": "Agachamento no smith + Agachamento livre (Combinado)",
         "repeticoes": "3x (10 reps smith + 12 reps livre)",
         "urlImagem": "imagens/exercicios/25.png",
-        "observacoes": "Carga smith: 15/15/15. Fazer todos seguidos e descansar 50 segundos. São 3 séries."
+        "observacoes": "Fazer todos seguidos e descansar 50 segundos. São 3 séries."
       },
       {
         "nome": "Leg press",
         "repeticoes": "3/10 a 12 lentas",
         "urlImagem": "imagens/exercicios/26.png",
-        "observacoes": "Carga: 40/40/40. Intervalo: 50.0s."
+        "observacoes": "Intervalo: 50.0s."
       },
       {
         "nome": "Cadeira flexora",
         "repeticoes": "15/12/12/30seg",
         "urlImagem": "imagens/exercicios/27.png",
-        "observacoes": "Carga: 10/15/20. Intervalo: 40.0s. Série de 30 segundos: fazer quantas repetições conseguir nesse tempo."
+        "observacoes": "Intervalo: 40.0s. Série de 30 segundos: fazer quantas repetições conseguir nesse tempo."
       },
       {
         "nome": "Abdução de quadril máquina",
         "repeticoes": "12/24/24",
         "urlImagem": "imagens/exercicios/28.png",
-        "observacoes": "Carga: 20/15/10. Intervalo: 50.0s. Série 1: 12 repetições lentas. Séries 3 e 4: fazer 8 reps, diminui o peso e faz mais 8, diminui de novo e faz mais 8."
+        "observacoes": "Intervalo: 50.0s. Série 1: 12 repetições lentas. Séries 3 e 4: fazer 8 reps, diminui o peso e faz mais 8, diminui de novo e faz mais 8."
       },
       {
         "nome": "CARDIO",
@@ -268,13 +268,13 @@
         "nome": "Variação desenvolvimento com halteres + Elevação frontal alternada com halteres + Abdominal remador no banco (Combinado)",
         "repeticoes": "3/12 + 3/10 cada lado + 3/15",
         "urlImagem": "imagens/exercicios/19.png",
-        "observacoes": "Cargas: Desenv. (5), Frontal (3). Fazer todos seguidos, descansar 50 segundos. São 3 séries. Aquecimento: 20 reps com pouco peso no primeiro exercício."
+        "observacoes": " Fazer todos seguidos, descansar 50 segundos. São 3 séries. Aquecimento: 20 reps com pouco peso no primeiro exercício."
       },
       {
         "nome": "Elevação lateral + Elevação frontal com anilha (Combinado)",
         "repeticoes": "3/12 + 3/15",
         "urlImagem": "imagens/exercicios/20.jpg",
-        "observacoes": "Cargas: Lateral (4), Frontal (5/5/5). Fazer todos seguidos, descansar 50 segundos. São 3 séries."
+        "observacoes": "Fazer todos seguidos, descansar 50 segundos. São 3 séries."
       },
       {
         "nome": "Rosca martelo + Abdominal oblíquo toca pé (Combinado)",
