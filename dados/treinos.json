@@ -209,62 +209,6 @@
       }
     ]
   },
-
-{
-    "fase": 1,
-    "dia": 4,
-    "nome": "Queima tudo",
-    "exercicios": [
-      {
-        "nome": "Puxada com triângulo",
-        "repeticoes": "20/15/12",
-        "urlImagem": "",
-        "observacoes": "Carga: 17/25/25. Intervalo: 30.0s. Aquecimento: 20 reps com pouco peso no primeiro exercício. Série 1: 20 reps rápidas; Série 2: 15 reps rápidas; Série 3: 12 reps lentas com mais peso."
-      },
-      {
-        "nome": "Desenvolvimento com halteres no banco",
-        "repeticoes": "12/12/10",
-        "urlImagem": "",
-        "observacoes": "Carga: 2,5. Intervalo: 50.0s."
-      },
-      {
-        "nome": "Elevação lateral",
-        "repeticoes": "3/15",
-        "urlImagem": "",
-        "observacoes": "Intervalo: 40.0s."
-      },
-      {
-        "nome": "Rosca direta com barra + Tríceps testa com halter (Combinado)",
-        "repeticoes": "3x (15 reps bíceps + 12 reps tríceps)",
-        "urlImagem": "",
-        "observacoes": "Fazer 15 repetições no bíceps, depois fazer mais 12 repetições no tríceps sem descanso entre eles. Descansar 40 segundos e repetir 3 vezes."
-      },
-      {
-        "nome": "Tríceps polia alta barra reta",
-        "repeticoes": "15/12/10",
-        "urlImagem": "",
-        "observacoes": "Carga: 5. Intervalo: 50.0s."
-      },
-      {
-        "nome": "Prancha baixa",
-        "repeticoes": "3/30segundos",
-        "urlImagem": "",
-        "observacoes": "Intervalo: 30.0s."
-      },
-      {
-        "nome": "Abdominal infra paralelas pernas flexionadas",
-        "repeticoes": "3/12",
-        "urlImagem": "",
-        "observacoes": "Intervalo: 45.0s."
-      },
-      {
-        "nome": "CARDIO",
-        "repeticoes": "20 minutos",
-        "urlImagem": "imagens/exercicios/cardio.png",
-        "observacoes": "Ao final do treino, alternando 1 minuto moderado e 30 segundos forte."
-      }
-    ]
-  },
   {
     "fase": 1,
     "dia": 5,
@@ -273,37 +217,37 @@
       {
         "nome": "Abdução de quadril na polia baixa",
         "repeticoes": "3/12 cada perna",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/23.png",
         "observacoes": "Carga: 1,25/1.8/1.8. Aquecimento: no primeiro exercício com pouco peso fazer 20 repetições!!"
       },
       {
         "nome": "Elevação de Quadril com Step",
         "repeticoes": "3/15",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/24.png",
         "observacoes": "Intervalo: 45.0s."
       },
       {
         "nome": "Agachamento no smith + Agachamento livre (Combinado)",
         "repeticoes": "3x (10 reps smith + 12 reps livre)",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/25.png",
         "observacoes": "Carga smith: 15/15/15. Fazer todos seguidos e descansar 50 segundos. São 3 séries."
       },
       {
         "nome": "Leg press",
         "repeticoes": "3/10 a 12 lentas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/26.png",
         "observacoes": "Carga: 40/40/40. Intervalo: 50.0s."
       },
       {
         "nome": "Cadeira flexora",
         "repeticoes": "15/12/12/30seg",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/27.png",
         "observacoes": "Carga: 10/15/20. Intervalo: 40.0s. Série de 30 segundos: fazer quantas repetições conseguir nesse tempo."
       },
       {
         "nome": "Abdução de quadril máquina",
         "repeticoes": "12/24/24",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/28.png",
         "observacoes": "Carga: 20/15/10. Intervalo: 50.0s. Série 1: 12 repetições lentas. Séries 3 e 4: fazer 8 reps, diminui o peso e faz mais 8, diminui de novo e faz mais 8."
       },
       {
