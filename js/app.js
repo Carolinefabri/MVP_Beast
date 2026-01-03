@@ -227,7 +227,8 @@ const frases = [
   "O ambiente vence a força de vontade.",
   "Prepare o caminho para vencer.",
   "O que é fácil se repete.",
-  "Desenhe sistemas, não metas."
+  "Desenhe sistemas, não metas.",
+  "Faster than yesterday."
 ];
 
 function mostrarFraseDiaria() {
