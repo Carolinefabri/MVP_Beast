@@ -149,8 +149,8 @@ select option {
 /* CRONÔMETRO */
 .cronometro-container {
     background: linear-gradient(135deg, #220549 0%, #030007 100%);  
-    border-radius: 16px;
-    padding: 20px;
+    border-radius: 14px;
+    padding: 15px;
     margin: 0 0 20px 0;
     box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
 }
@@ -512,7 +512,7 @@ select option {
     }
 
     .cronometro-container {
-        padding: 30px;
+        padding: 20px;
     }
 
     .cronometro-btn {
@@ -567,12 +567,12 @@ select option {
     }
 
     .cronometro-container {
-        padding: 15px;
+        padding: 12px;
         border-radius: 12px;
     }
 
     .cronometro-display {
-        margin-bottom: 15px;
+        margin-bottom: 12px;
         letter-spacing: 1px;
     }
 
@@ -628,11 +628,11 @@ select option {
     }
 
     .cronometro-display {
-        font-size: 48px;
-        margin-bottom: 12px;
+        font-size: 36px;
+        margin-bottom: 10px;
     }
 
     .cronometro-container {
-        padding: 15px;
+        padding: 12px;
     }
 }
