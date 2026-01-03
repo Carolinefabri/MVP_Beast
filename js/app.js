@@ -10,9 +10,6 @@ const totalExercicios = document.getElementById('totalExercicios');
 const treinoHeader = document.getElementById('treinoHeader');
 const treinoTitulo = document.getElementById('treinoTitulo');
 const treinoSubtitulo = document.getElementById('treinoSubtitulo');
-const resumoTreino = document.getElementById('resumoTreino');
-const resumoExercicios = document.getElementById('resumoExercicios');
-const resumoSeries = document.getElementById('resumoSeries');
 const checkboxConcluido = document.getElementById('checkboxConcluido');
 const treinoConcluido = document.getElementById('treinoConcluido');
 
@@ -27,13 +24,6 @@ fetch('dados/treinos.json')
 // FILTRA TREINO
 function filtrarTreino(fase, dia) {
   return treinos.find(t => t.fase === fase && t.dia === dia);
-}
-
-// CALCULA TOTAL DE SÉRIES
-function calcularSeries(exercicios) {
-  return exercicios.reduce((total, exercicio) => {
-    return total + parseInt(exercicio.repeticoes);
-  }, 0);
 }
 
 // CRIAR MODAL DE IMAGEM
@@ -153,10 +143,6 @@ function renderizarExercicios() {
 
   totalExercicios.textContent = `${treino.exercicios.length} exercícios`;
 
-  resumoTreino.style.display = 'block';
-  resumoExercicios.textContent = treino.exercicios.length;
-  resumoSeries.textContent = calcularSeries(treino.exercicios);
-
   listaExercicios.innerHTML = treino.exercicios.map((ex, i) => `
     <div class="exercicio-card">
       <div class="exercicio-imagem-container ${ex.urlImagem ? 'clicavel' : ''}" 
@@ -247,6 +233,49 @@ function mostrarFraseDiaria() {
 
 mostrarFraseDiaria();
 
+// CRONÔMETRO
+let cronometroSegundos = 0;
+let cronometroIntervalo = null;
+let cronometroAtivo = false;
+
+function iniciarCronometro() {
+  if (!cronometroAtivo) {
+    cronometroAtivo = true;
+    document.getElementById('btnStart').disabled = true;
+    document.getElementById('btnPause').disabled = false;
+    
+    cronometroIntervalo = setInterval(() => {
+      cronometroSegundos++;
+      atualizarDisplayCronometro();
+    }, 1000);
+  }
+}
+
+function pausarCronometro() {
+  if (cronometroAtivo) {
+    cronometroAtivo = false;
+    clearInterval(cronometroIntervalo);
+    document.getElementById('btnStart').disabled = false;
+    document.getElementById('btnPause').disabled = true;
+  }
+}
+
+function resetarCronometro() {
+  pausarCronometro();
+  cronometroSegundos = 0;
+  atualizarDisplayCronometro();
+  document.getElementById('btnStart').disabled = false;
+  document.getElementById('btnPause').disabled = true;
+}
+
+function atualizarDisplayCronometro() {
+  const minutos = Math.floor(cronometroSegundos / 60);
+  const segundos = cronometroSegundos % 60;
+  
+  const display = `${String(minutos).padStart(2, '0')}:${String(segundos).padStart(2, '0')}`;
+  document.getElementById('cronometroDisplay').textContent = display;
+}
+
 // GERENCIAR CHECKBOXES DOS EXERCÍCIOS
 function obterChaveExercicio(fase, dia, index) {
   const hoje = new Date().toISOString().split('T')[0];
@@ -287,6 +316,3 @@ function limparChecksAntigos() {
     }
   });
 }
-
-// Remover funções antigas do checkbox geral (não são mais necessárias)
-treinoConcluido.removeEventListener('change', salvarEstadoCheckbox);

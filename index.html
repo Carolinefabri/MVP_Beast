@@ -62,16 +62,13 @@
 
     <!-- CONTEÚDO -->
     <main class="conteudo">
-        <div id="resumoTreino" class="resumo-treino" style="display:none;">
-            <div class="resumo-grid">
-                <div>
-                    <div class="resumo-item-valor" id="resumoExercicios">0</div>
-                    <div class="resumo-item-label">Exercícios</div>
-                </div>
-                <div>
-                    <div class="resumo-item-valor" id="resumoSeries">0</div>
-                    <div class="resumo-item-label">Séries</div>
-                </div>
+        <!-- CRONÔMETRO -->
+        <div id="cronometroContainer" class="cronometro-container">
+            <div class="cronometro-display" id="cronometroDisplay">00:00</div>
+            <div class="cronometro-controles">
+                <button class="cronometro-btn btn-start" id="btnStart" onclick="iniciarCronometro()">▶ Start</button>
+                <button class="cronometro-btn btn-pause" id="btnPause" onclick="pausarCronometro()" disabled>⏸ Pause</button>
+                <button class="cronometro-btn btn-reset" id="btnReset" onclick="resetarCronometro()">↻ Reset</button>
             </div>
         </div>
 
@@ -83,19 +80,19 @@
         <div id="listaExercicios" class="lista-exercicios"></div>
 
         <div id="checkboxConcluido" class="checkbox-concluido" style="display:none;">
-    <label class="checkbox-label">
-        <input type="checkbox" id="treinoConcluido">
-        <span class="checkbox-custom"></span>
-        <span class="checkbox-text">Treino concluído! 💪</span>
-    </label>
-    </div>
+            <label class="checkbox-label">
+                <input type="checkbox" id="treinoConcluido">
+                <span class="checkbox-custom"></span>
+                <span class="checkbox-text">Treino concluído! 💪</span>
+            </label>
+        </div>
         
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
         <div class="footer-content">
-            <span>© <span id="anoAtual"></span> • Desenvolvido por Caroline  Fabri</span>
+            <span>© <span id="anoAtual"></span> • Desenvolvido por Caroline Fabri</span>
         </div>
     </footer>
 

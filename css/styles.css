@@ -32,7 +32,7 @@ body::before {
 .header {
     background: linear-gradient(135deg, #220549 0%, #030007 100%);
     color: white;
-    padding: 20px;
+    padding: 15px;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -43,34 +43,37 @@ body::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .header-text {
     display: flex;
     flex-direction: column;
     gap: 6px;
+    flex: 1;
 }
 
 .header-title {
-    font-size: 24px;
+    font-size: clamp(18px, 5vw, 24px);
     font-weight: 700;
 }
 
 .header-frase {
-    font-size: 16px;
+    font-size: clamp(12px, 3.5vw, 16px);
     font-style: italic;
     opacity: 0.9;
+    line-height: 1.3;
 }
 
 .header-icon {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .header-icon img {
@@ -83,7 +86,7 @@ body::before {
 .seletores {
     display: flex;
     gap: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .seletor-wrapper {
@@ -92,20 +95,20 @@ body::before {
 }
 
 .seletor-label {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     opacity: 0.9;
 }
 
 select {
     width: 100%;
-    padding: 12px 15px;
+    padding: 10px 12px;
     border: none;
     border-radius: 12px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     background: rgba(255, 255, 255, 0.25);
     color: white;
@@ -126,7 +129,7 @@ select option {
 .info-rapida {
     display: flex;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 12px;
     opacity: 0.95;
 }
 
@@ -138,53 +141,105 @@ select option {
 
 /* CONTEÚDO */
 .conteudo {
-    padding: 20px;
-}
-
-/* RESUMO TREINO */
-.resumo-treino {
-    background: white;
-    border-radius: 16px;
     padding: 15px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.resumo-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    text-align: center;
+/* CRONÔMETRO */
+.cronometro-container {
+    background: linear-gradient(135deg, #220549 0%, #030007 100%);  
+    border-radius: 16px;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
 }
 
-.resumo-item-valor {
-    font-size: 24px;
+.cronometro-display {
+    font-size: clamp(48px, 15vw, 72px);
     font-weight: 700;
-    color: #667eea;
-    margin-bottom: 4px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.resumo-item-label {
-    font-size: 12px;
-    color: #888;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+.cronometro-controles {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cronometro-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    min-width: 95px;
+    flex: 1;
+    max-width: 130px;
+}
+
+.cronometro-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.cronometro-btn:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.cronometro-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-start {
+    background: linear-gradient(135deg, #551199 0%, #613778 100%);
+}
+
+.btn-start:hover:not(:disabled) {
+    background: linear-gradient(135deg, #7f07e8 0%, #1d032b 100%);
+}
+
+.btn-pause {
+    background: linear-gradient(135deg, #dec9e0 0%, #a657f5 100%);
+}
+
+.btn-pause:hover:not(:disabled) {
+    background: linear-gradient(135deg, #d67ae0 0%, #c169ed 100%);
+}
+
+.btn-reset {
+    background: linear-gradient(135deg, #710ae7 0%, #764293 100%);
+}
+
+.btn-reset:hover:not(:disabled) {
+    background: linear-gradient(135deg, #6c05d9 0%, #beb2c4 100%);
 }
 
 /* TREINO HEADER */
 .treino-header {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .treino-titulo {
-    font-size: 22px;
+    font-size: clamp(18px, 5vw, 22px);
     font-weight: 700;
     color: #333;
     margin-bottom: 5px;
 }
 
 .treino-subtitulo {
-    font-size: 14px;
+    font-size: clamp(12px, 3vw, 14px);
     color: #666;
 }
 
@@ -198,7 +253,7 @@ select option {
 /* CARD DO EXERCÍCIO */
 .exercicio-card {
     background: white;
-    border-radius: 16px;
+    border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     display: flex;
@@ -210,9 +265,9 @@ select option {
 }
 
 .exercicio-imagem-container {
-    width: 110px;
-    min-width: 110px;
-    height: 110px;
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
     background: #f8f9fa;
     display: flex;
     align-items: center;
@@ -229,38 +284,38 @@ select option {
 
 .exercicio-numero {
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 6px;
+    left: 6px;
     background: rgba(0,0,0,0.6);
     color: white;
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
 }
 
 .placeholder-icon {
-    font-size: 40px;
+    font-size: 36px;
     opacity: 0.3;
 }
 
 .exercicio-info {
     flex: 1;
-    padding: 12px 15px;
+    padding: 10px 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .exercicio-nome {
-    font-size: 16px;
+    font-size: clamp(14px, 4vw, 16px);
     font-weight: 700;
     color: #333;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     line-height: 1.3;
 }
 
@@ -268,160 +323,57 @@ select option {
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: 14px;
+    font-size: clamp(12px, 3.5vw, 14px);
     color: #667eea;
     font-weight: 600;
+    margin-bottom: 4px;
 }
 
 .exercicio-obs {
-    font-size: 13px;
+    font-size: clamp(11px, 3vw, 13px);
     color: #888;
     line-height: 1.4;
+    margin-top: 4px;
 }
 
-.vazio {
-    text-align: center;
-    padding: 60px 20px;
-    color: #999;
-}
-
-.vazio-icone {
-    font-size: 64px;
-    margin-bottom: 15px;
-    opacity: 0.5;
-}
-
-.vazio-texto {
-    font-size: 16px;
-    margin-bottom: 8px;
-}
-
-.vazio-subtexto {
-    font-size: 14px;
-    opacity: 0.7;
-}
-
-/* FOOTER */
-.footer {
-    margin-top: 40px;
-    padding: 16px 20px;
-    text-align: center;
-    font-size: 13px;
-    color: #777;
-}
-
-.footer-content {
-    opacity: 0.8;
-}
-
-/* RESPONSIVO */
-@media (max-width: 380px) {
-    .exercicio-imagem-container {
-        width: 90px;
-        min-width: 90px;
-        height: 90px;
-    }
-
-    .exercicio-nome {
-        font-size: 15px;
-    }
-
-    .header-title {
-        font-size: 20px;
-    }
-
-    .header-frase {
-        font-size: 14px;
-    }
-}
-
-
-/* Adicionar ao final do seu arquivo CSS */
-
-.exercicio-imagem-container.clicavel {
-  cursor: pointer;
-  position: relative;
-}
-
-.exercicio-imagem-container.clicavel:hover {
-  transform: scale(1.02);
-  transition: transform 0.2s;
-}
-
-.zoom-hint {
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 4px 8px;
-  border-radius: 12px;
-  font-size: 12px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.exercicio-imagem-container.clicavel:hover .zoom-hint {
-  opacity: 1;
-}
-
-/* Para telas menores (celular) */
-@media (max-width: 768px) {
-  .zoom-hint {
-    opacity: 0.7;
-  }
-}
-
-/* FOOTER */
-.footer {
-    background: rgba(255, 255, 255, 0.05);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 1.5rem;
-    text-align: center;
-    margin-top: 3rem;
-}
-
-/* CHECKBOX TREINO CONCLUÍDO */
-/* CONTAINER DO CHECKBOX DO EXERCÍCIO */
+/* CHECKBOX DO EXERCÍCIO */
 .exercicio-checkbox {
-    margin-left: 1rem; /* Espaçamento à esquerda */
-    padding-right: 1.5rem; /* Espaçamento interno direito */
+    margin-left: 8px;
+    padding-right: 12px;
     display: flex;
     align-items: center;
 }
 
-/* LABEL CUSTOMIZADO DO CHECKBOX DO EXERCÍCIO */
 .exercicio-checkbox .check-label {
-    width: 28px;
-    height: 28px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    width: 26px;
+    height: 26px;
+    border: 2px solid rgba(102, 126, 234, 0.3);
     border-radius: 6px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.2s ease;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(102, 126, 234, 0.05);
 }
 
 .exercicio-checkbox .check-label:hover {
-    border-color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(102, 126, 234, 0.6);
     transform: scale(1.05);
 }
 
 .exercicio-checkbox .exercicio-check:checked + .check-label {
-    background: linear-gradient(135deg, #2c084b, #010001);
-    border-color: #8012ed;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-color: #667eea;
 }
 
 .exercicio-checkbox .exercicio-check:checked + .check-label::after {
     content: "✓";
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
-/* CHECKBOX ESCONDIDO (visível apenas para leitores de tela) */
 .exercicio-check {
     position: absolute;
     opacity: 0;
@@ -430,14 +382,257 @@ select option {
     pointer-events: none;
 }
 
-/* RESPONSIVO PARA CHECKBOX */
-@media (max-width: 480px) {
-    .checkbox-concluido {
-        max-width: 100%;
-        padding: 1rem;
+/* IMAGEM CLICÁVEL */
+.exercicio-imagem-container.clicavel {
+    cursor: pointer;
+    position: relative;
+}
+
+.exercicio-imagem-container.clicavel:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+
+.zoom-hint {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 10px;
+    font-size: 11px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.exercicio-imagem-container.clicavel:hover .zoom-hint {
+    opacity: 1;
+}
+
+/* VAZIO */
+.vazio {
+    text-align: center;
+    padding: 50px 20px;
+    color: #999;
+}
+
+.vazio-icone {
+    font-size: 48px;
+    margin-bottom: 12px;
+    opacity: 0.5;
+}
+
+.vazio-texto {
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.vazio-subtexto {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+/* CHECKBOX CONCLUÍDO */
+.checkbox-concluido {
+    margin-top: 20px;
+    padding: 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+.checkbox-custom {
+    width: 24px;
+    height: 24px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#treinoConcluido:checked + .checkbox-custom {
+    background: white;
+    border-color: white;
+}
+
+#treinoConcluido:checked + .checkbox-custom::after {
+    content: "✓";
+    color: #667eea;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.checkbox-text {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* FOOTER */
+.footer {
+    background: rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-content {
+    opacity: 0.8;
+    font-size: 12px;
+    color: #777;
+}
+
+/* ==================== RESPONSIVO ==================== */
+
+/* Tablets e dispositivos médios */
+@media (min-width: 768px) {
+    .header {
+        padding: 20px 25px;
     }
-    
-    .checkbox-label {
-        padding: 1.25rem 1.5rem;
+
+    .header-icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .conteudo {
+        padding: 20px;
+    }
+
+    .cronometro-container {
+        padding: 30px;
+    }
+
+    .cronometro-btn {
+        min-width: 110px;
+        padding: 14px 28px;
+        font-size: 16px;
+    }
+
+    .exercicio-imagem-container {
+        width: 110px;
+        min-width: 110px;
+        height: 110px;
+    }
+
+    .exercicio-info {
+        padding: 12px 15px;
+    }
+
+    .exercicio-checkbox {
+        margin-left: 10px;
+        padding-right: 15px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .header-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .exercicio-imagem-container {
+        width: 120px;
+        min-width: 120px;
+        height: 120px;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 360px) {
+    .header {
+        padding: 12px;
+    }
+
+    .header-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .conteudo {
+        padding: 12px;
+    }
+
+    .cronometro-container {
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .cronometro-display {
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
+    .cronometro-controles {
+        gap: 6px;
+    }
+
+    .cronometro-btn {
+        padding: 10px 16px;
+        font-size: 13px;
+        min-width: 85px;
+    }
+
+    .exercicio-card {
+        border-radius: 12px;
+    }
+
+    .exercicio-imagem-container {
+        width: 85px;
+        min-width: 85px;
+        height: 85px;
+    }
+
+    .exercicio-numero {
+        width: 22px;
+        height: 22px;
+        font-size: 11px;
+    }
+
+    .exercicio-info {
+        padding: 8px 10px;
+    }
+
+    .exercicio-checkbox {
+        margin-left: 6px;
+        padding-right: 10px;
+    }
+
+    .exercicio-checkbox .check-label {
+        width: 24px;
+        height: 24px;
+    }
+
+    .lista-exercicios {
+        gap: 10px;
+    }
+}
+
+/* Ajustes para orientação paisagem em celulares */
+@media (max-height: 500px) and (orientation: landscape) {
+    .header {
+        position: relative;
+    }
+
+    .cronometro-display {
+        font-size: 48px;
+        margin-bottom: 12px;
+    }
+
+    .cronometro-container {
+        padding: 15px;
     }
 }
