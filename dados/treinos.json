@@ -296,6 +296,19 @@
       }
     ]
   },
+  {
+    "fase": 1,
+    "dia": 7,
+    "nome": "Retroativo",
+    "exercicios": [
+      {
+        "nome": "CARDIO",
+        "repeticoes": "20 minutos",
+        "urlImagem": "imagens/exercicios/cardio.png",
+        "observacoes": "Cardio no domingo é terapia retroativa para o corpo e a mente."
+      }
+        ]
+  },
 
   {
     "fase": 2,
