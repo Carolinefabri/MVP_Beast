@@ -318,13 +318,13 @@
       {
         "nome": "Agachamento no smith",
         "repeticoes": "15/12/10",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/31.png",
         "observacoes": "Aquecimento: fazer 20 repetições com pouco peso ou sem peso somente no primeiro exercício do treino!!"
       },
       {
         "nome": "Agachamento livre",
         "repeticoes": "3/15 a 20 rápidas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/32.png",
         "observacoes": "Combinado com agachamento smith. Após fazer os dois descanso de 60 segundos, são 3 séries. Intervalo: 60s."
       },
       {
@@ -340,9 +340,9 @@
         "observacoes": "Combinado com agachamento duplo."
       },
       {
-        "nome": "Agachamento duplo",
+        "nome": "Agachamento duplo e Cadeira extensora ",
         "repeticoes": "3/12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/34.png",
         "observacoes": "Combinado com cadeira extensora. Fazer os dois, descansar 50 segundos, são 3 séries. Intervalo: 50s."
       },
       {
@@ -360,7 +360,7 @@
       {
         "nome": "Elevação de quadril com barra",
         "repeticoes": "3/15",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/33.png",
         "observacoes": "Intervalo: 50s. Em todas as repetições segurar 2 segundos lá em cima contraindo bem o bumbum."
       }
     ]
@@ -379,7 +379,7 @@
       {
         "nome": "Remada curvada com barra pegada supinada",
         "repeticoes": "12/10/8",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/35.png",
         "observacoes": "Combinado com variação desenvolvimento com halteres."
       },
       {
@@ -391,19 +391,19 @@
       {
         "nome": "Pull down na polia barra reta",
         "repeticoes": "3/12",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/36.png",
         "observacoes": "Intervalo: 45s. Fazer repetições lentas, subir em 3 segundos e descer em 1 segundo."
       },
       {
         "nome": "Supino máquina",
         "repeticoes": "3/10 a 12 lentas",
-        "urlImagem": "",
+        "urlImagem": "imagens/exercicios/4.png",
         "observacoes": "Combinado com elevação frontal com anilha."
       },
       {
         "nome": "Elevação frontal com anilha",
         "repeticoes": "3/15 a 20",
-        "urlImagem": "",
+        "urlImagem":  "imagens/exercicios/14.png",
         "observacoes": "Combinado com supino máquina. Fazer os dois, descansar 55 segundos, são 3 séries."
       },
       {
@@ -1227,7 +1227,7 @@
       {
         "nome": "Elevação frontal com anilha",
         "repeticoes": "3/20",
-        "urlImagem": "",
+        "urlImagem":  "imagens/exercicios/37.png",
         "observacoes": "Combinado com remada alta com barra."
       },
       {
