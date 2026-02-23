@@ -8,7 +8,7 @@
 /* BODY */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background: #ebdada;
+    background: #d3d9f5;
     min-height: 100vh;
     color: #1c0404;
     position: relative;
@@ -30,13 +30,42 @@ body::before {
 
 /* HEADER */
 .header {
-    background: linear-gradient(135deg, #320101 0%, #090000 100%);
-    color: white;
-    padding: 15px;
     position: sticky;
     top: 0;
     z-index: 10;
+
+    background: linear-gradient(
+        to left,
+        rgba(6, 15, 68, 0.95) 10%,
+        rgba(6, 15, 68, 0.3) 100%
+    );
+
+    background-color: #060f44;
+    color: white;
+    padding: 55px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+    position: sticky;
+    overflow: hidden; /* importante */
+}
+
+/* tubarão gigante */
+.header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: url('../imagens/SHARKMODE.png') center 47% / 450px no-repeat;
+    opacity: 0.12; /* controla transparência */
+
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* garante que o conteúdo fique por cima */
+.header > * {
+    position: relative;
+    z-index: 1;
 }
 
 .header-top {
@@ -247,7 +276,7 @@ select option {
     align-items: center;
     gap: 5px;
     font-size: clamp(12px, 3.5vw, 14px);
-    color: #450606;
+    color: #020631;
     font-weight: 600;
     margin-bottom: 4px;
 }
@@ -270,7 +299,7 @@ select option {
 .exercicio-checkbox .check-label {
     width: 26px;
     height: 26px;
-    border: 2px solid rgba(240, 5, 5, 0.3);
+    border: 2px solid rgba(67, 61, 136, 0.3);
     border-radius: 6px;
     cursor: pointer;
     display: flex;
@@ -286,7 +315,7 @@ select option {
 }
 
 .exercicio-checkbox .exercicio-check:checked + .check-label {
-    background: linear-gradient(135deg, #56040e, #080000);
+    background: linear-gradient(135deg, #020335, #080000);
     border-color: #050000;
 }
 
@@ -360,7 +389,7 @@ select option {
 .checkbox-concluido {
     margin-top: 20px;
     padding: 15px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #01061a 0%, #030636 100%);
     border-radius: 14px;
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
 }
@@ -376,7 +405,7 @@ select option {
 .checkbox-custom {
     width: 24px;
     height: 24px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(11, 3, 54, 0.5);
     border-radius: 6px;
     display: flex;
     align-items: center;
