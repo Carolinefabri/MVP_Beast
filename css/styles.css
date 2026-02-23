@@ -10,7 +10,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     background: #ebdada;
     min-height: 100vh;
-    color: #333;
+    color: #1c0404;
     position: relative;
 }
 
@@ -147,84 +147,7 @@ select option {
 }
 
 /* CRONÔMETRO */
-.cronometro-container {
-    background: linear-gradient(135deg, #220549 0%, #030007 100%);  
-    border-radius: 14px;
-    padding: 15px;
-    margin: 0 0 20px 0;
-    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
-}
 
-.cronometro-display {
-    font-size: clamp(48px, 15vw, 72px);
-    font-weight: 700;
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: 'Courier New', monospace;
-    letter-spacing: 2px;
-    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.cronometro-controles {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.cronometro-btn {
-    padding: 12px 20px;
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    min-width: 95px;
-    flex: 1;
-    max-width: 130px;
-}
-
-.cronometro-btn:hover:not(:disabled) {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
-}
-
-.cronometro-btn:active:not(:disabled) {
-    transform: translateY(0);
-}
-
-.cronometro-btn:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-}
-
-.btn-start {
-    background: linear-gradient(135deg, #551199 0%, #613778 100%);
-}
-
-.btn-start:hover:not(:disabled) {
-    background: linear-gradient(135deg, #7f07e8 0%, #1d032b 100%);
-}
-
-.btn-pause {
-    background: linear-gradient(135deg, #dec9e0 0%, #a657f5 100%);
-}
-
-.btn-pause:hover:not(:disabled) {
-    background: linear-gradient(135deg, #d67ae0 0%, #c169ed 100%);
-}
-
-.btn-reset {
-    background: linear-gradient(135deg, #710ae7 0%, #764293 100%);
-}
-
-.btn-reset:hover:not(:disabled) {
-    background: linear-gradient(135deg, #6c05d9 0%, #beb2c4 100%);
-}
 
 /* TREINO HEADER */
 .treino-header {
@@ -324,7 +247,7 @@ select option {
     align-items: center;
     gap: 5px;
     font-size: clamp(12px, 3.5vw, 14px);
-    color: #667eea;
+    color: #450606;
     font-weight: 600;
     margin-bottom: 4px;
 }
@@ -347,7 +270,7 @@ select option {
 .exercicio-checkbox .check-label {
     width: 26px;
     height: 26px;
-    border: 2px solid rgba(102, 126, 234, 0.3);
+    border: 2px solid rgba(240, 5, 5, 0.3);
     border-radius: 6px;
     cursor: pointer;
     display: flex;
@@ -358,13 +281,13 @@ select option {
 }
 
 .exercicio-checkbox .check-label:hover {
-    border-color: rgba(102, 126, 234, 0.6);
+    border-color: rgba(37, 3, 10, 0.6);
     transform: scale(1.05);
 }
 
 .exercicio-checkbox .exercicio-check:checked + .check-label {
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    border-color: #667eea;
+    background: linear-gradient(135deg, #56040e, #080000);
+    border-color: #050000;
 }
 
 .exercicio-checkbox .exercicio-check:checked + .check-label::after {
@@ -469,7 +392,7 @@ select option {
 
 #treinoConcluido:checked + .checkbox-custom::after {
     content: "✓";
-    color: #667eea;
+    color: #9fccea;
     font-size: 16px;
     font-weight: bold;
 }
